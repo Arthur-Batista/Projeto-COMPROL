@@ -222,7 +222,7 @@ img#imagem-logo:hover{
 .section-1 h2{
     text-align: center;
     color: #462663;
-    font-weight: normal;
+    font-weight: bolder;
 }
 
 
@@ -289,9 +289,46 @@ a#link-footer:hover{
     margin-top: 8px;
 }
 
+@media screen and (max-width: 1320px){
+    .container-single{
+        padding-left: 70px;
+        padding-right: 70px;
+        background-color: #fff;
+        width: calc(100%/2);
+    }
+
+    .container-single img{
+        width: 130px;
+    }
+
+    .text-container-single p{
+        padding: 10px 70px;
+    }
+
+    .container-single img#imagem-corona{
+        width: 130px;
+    }
+
+    #imagem-carro{
+        width: 130px;
+    }
+
+    .container-single img#imagem-quimico{
+        width: 130px;
+    }
+
+    .container-single img#imagem-para-casa{
+        width: 130px;
+    } 
+
+    #imagem-concentrado{
+        width: 130px;
+    }
+
+}
+
 @media screen and (max-width: 1115px){
     .container-single{
-/*         background-color: #fff; */
         width: 100%;
         padding: 10px 200px;
     }
