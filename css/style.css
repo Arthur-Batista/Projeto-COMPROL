@@ -289,12 +289,11 @@ a#link-footer:hover{
     margin-top: 8px;
 }
 
-@media screen and (max-width: 1320px){
+@media screen and (max-width: 1322px){
     .container-single{
-        padding-left: 70px;
-        padding-right: 70px;
-        background-color: #fff;
-        width: calc(100%/2);
+        padding-left: 170px;
+        padding-right: 170px;
+        width: 100%;
     }
 
     .container-single img{
@@ -302,6 +301,7 @@ a#link-footer:hover{
     }
 
     .text-container-single p{
+        font-size: larger;
         padding: 10px 70px;
     }
 
@@ -353,6 +353,7 @@ a#link-footer:hover{
     }
 
     .container-list{
+        text-align: left;
         display: inline-block;
         padding: 30px 0;
         /* float: left; */
@@ -360,10 +361,14 @@ a#link-footer:hover{
 /*         margin-top: 30px; */
         max-width: 500px;
         height: auto;
+    }
 
+    .container-list ul li {
+        margin-left: 25px;
     }
 
     .container-banner{
+        background-image: url(/images/imagem-banner.png);
         padding: 40px 2%;
         width: 100%;
         height: auto;
@@ -419,6 +424,13 @@ a#link-footer:hover{
         float: none;
         display: inline-block;
         width: 90%;
+    }
+
+    .container-banner{
+        background-image: url(/images/imagem-banner-menor.png);
+        background-size: 1000px;
+        background-position: top center;
+        background-repeat: no-repeat;
     }
 
     .container-single{
