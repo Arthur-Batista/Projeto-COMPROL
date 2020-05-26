@@ -244,6 +244,10 @@ img#imagem-logo:hover{
     color: #212343;
 }
 
+.container-single h2:hover{
+    text-decoration: underline;
+}
+
 .container-single p{
     text-align: justify;
     word-spacing: -3px;
