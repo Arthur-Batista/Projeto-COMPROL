@@ -277,12 +277,12 @@ img#imagem-logo:hover{
 }
 
 a#link-footer{
+    transition: .4s;
     color: teal;
     font-style: italic;
 }
 
 a#link-footer:hover{
-    transition: .4s;
     font-size: 20px;
 }
 
