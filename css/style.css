@@ -26,13 +26,13 @@ html, body{
 }
 
 img#imagem-logo{
+    transition: 1s;
     width: 250px;
     margin-top: 20px;
 }
 
 img#imagem-logo:hover{
     margin-top: 23px;
-    transition: 1s;
     width: 265px;
 }
 
